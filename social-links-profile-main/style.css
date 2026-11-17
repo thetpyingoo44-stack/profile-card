@@ -1,0 +1,76 @@
+body{
+    max-width: 100%;
+   background-color: hsl(0, 0%, 8%);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.card-container{
+    width: 100%;
+    margin: auto;
+    max-width: 26rem;
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.625rem;
+    color: #fff;
+    background-color: hsl(0, 0%, 12%);
+    margin-block-start:  10rem;
+}
+.card-image{
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+    margin-block: 2rem 1.5rem;
+}
+h1{
+    margin-block-end: 0.2rem;
+}
+span{
+    font-size: 1.1875rem;
+    margin-block-end: 1.5rem;
+    color: hsl(75, 94%, 57%);
+}
+.card-content{
+    font-size: 1.1875rem;
+    margin-block-end: 1.5rem;
+    color: hsl(0, 0%, 100%);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 18.75rem;
+    padding: 0.625rem 0;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+}
+.attribution { font-size: 0.6875rem; text-align: center; 
+color: #fff;}
+    .attribution a { color: hsl(228, 45%, 44%);}
+
+@media screen and (max-width: 25rem){
+    .card-container{
+        margin: 0;
+        padding: 0.7rem;
+        border-radius: 0;
+    }
+    button{
+        width: 15rem;
+    }
+
+}
